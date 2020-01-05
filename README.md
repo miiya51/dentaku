@@ -3,4 +3,4 @@ browser calculator
 
 Overview
 
-Simple browser calculator tool.
+Simple browser calculator.
