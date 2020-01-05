@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="result">
+            <div id="app">
+                {{ counter }}
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="calc-on" v-on:click='addnum(7)'>7</button>
+            <button class="calc-on" v-on:click='addnum(8)'>8</button>
+            <button class="calc-on" v-on:click='addnum(9)'>9</button>
+            <button class="calc-on" v-on:click=''>×</button>
+            <button class="calc-on" v-on:click=''>÷</button>
+            <button class="calc-on" v-on:click='addnum(4)'>4</button>
+            <button class="calc-on" v-on:click='addnum(5)'>5</button>
+            <button class="calc-on" v-on:click='addnum(6)'>6</button>
+            <button class="calc-on" v-on:click=''>+</button>
+            <button class="calc-on" v-on:click=''>-</button>
+            <button class="calc-on" v-on:click='addnum(1)'>1</button>
+            <button class="calc-on" v-on:click='addnum(2)'>2</button>
+            <button class="calc-on" v-on:click='addnum(3)'>3</button>
+            <button class="calc-on" v-on:click='addnum(7)'>=</button>
+            <button class="calc-on" v-on:click='addnum(7)'>C</button>
+
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="message.js"></script>
+
+</html>

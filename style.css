@@ -1,0 +1,39 @@
+div{
+    border-radius: 5px;
+}
+
+.content {
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    width: 480px;
+    height: 430px;
+}
+
+.result {
+    position: absolute; 
+    width: 430px;
+    height: 70px;
+    background-color: darkgray;
+    margin: 25px 25px;
+}
+
+.buttons {
+    position: absolute; 
+    width: 430px;
+    height: 260px;
+    background-color: greenyellow;
+    margin-top: 145px;
+    margin-left: 25px;  
+}
+
+.calc-on {
+    position: relative; 
+    width: 80px;
+    height: 80px;
+    background-color: hotpink;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
