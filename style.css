@@ -4,7 +4,7 @@ div{
 
 button{
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .content {
@@ -12,13 +12,13 @@ button{
     margin-left: auto;
     margin-right: auto;
     background-color: antiquewhite;
-    width: 480px;
+    width: 394px;
     height: 520px;
 }
 
 .diplay_result {
     position: absolute; 
-    width: 430px;
+    width: 344px;
     height: 70px;
     background-color: darkgray;
     margin: 25px 25px;
@@ -36,9 +36,9 @@ button{
 
 .buttons {
     position: absolute; 
-    width: 430px;
+    width: 344px;
     height: 345px;
-    background-color: greenyellow;
+    background-color:antiquewhite;
     margin-top: 145px;
     margin-left: 25px;  
 }
@@ -47,7 +47,7 @@ button{
     position: relative; 
     width: 80px;
     height: 80px;
-    background-color: hotpink;
+    background-color:darkgray;
     float: left;
     margin-left: 5px;
     margin-top: 5px;
