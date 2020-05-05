@@ -12,28 +12,28 @@
 
 <body>
     <div class="content">
-        <div class="result">
-            <div id="app">
-                {{ counter }}
-            </div>
+        <div class="diplay_result">
+            <div class="operator">{{ operator }}</div>
+            <div class="result_num" v-if="calc_flg">{{ counter1 }}</div>
+            <div class="result_num" v-else>{{ counter }}</div>
         </div>
         <div class="buttons">
-            <button class="calc-on" v-on:click='addnum(7)'>7</button>
-            <button class="calc-on" v-on:click='addnum(8)'>8</button>
-            <button class="calc-on" v-on:click='addnum(9)'>9</button>
-            <button class="calc-on" v-on:click=''>×</button>
-            <button class="calc-on" v-on:click=''>÷</button>
-            <button class="calc-on" v-on:click='addnum(4)'>4</button>
-            <button class="calc-on" v-on:click='addnum(5)'>5</button>
-            <button class="calc-on" v-on:click='addnum(6)'>6</button>
-            <button class="calc-on" v-on:click=''>+</button>
-            <button class="calc-on" v-on:click=''>-</button>
-            <button class="calc-on" v-on:click='addnum(1)'>1</button>
-            <button class="calc-on" v-on:click='addnum(2)'>2</button>
-            <button class="calc-on" v-on:click='addnum(3)'>3</button>
-            <button class="calc-on" v-on:click='addnum(7)'>=</button>
-            <button class="calc-on" v-on:click='addnum(7)'>C</button>
-
+            <button class="calc-on" v-on:click="addnum('7')">7</button>
+            <button class="calc-on" v-on:click="addnum('8')">8</button>
+            <button class="calc-on" v-on:click="addnum('9')">9</button>
+            <button class="calc-on" v-on:click="multiply()">×</button>
+            <button class="calc-on" v-on:click="divide()">÷</button>
+            <button class="calc-on" v-on:click="addnum('4')">4</button>
+            <button class="calc-on" v-on:click="addnum('5')">5</button>
+            <button class="calc-on" v-on:click="addnum('6')">6</button>
+            <button class="calc-on" v-on:click="plus">+</button>
+            <button class="calc-on" v-on:click="minus">-</button>
+            <button class="calc-on" v-on:click="addnum('1')">1</button>
+            <button class="calc-on" v-on:click="addnum('2')">2</button>
+            <button class="calc-on" v-on:click="addnum('3')">3</button>
+            <button class="calc-on" v-on:click="result">=</button>
+            <button class="calc-on" v-on:click="clearnum">C</button>
+            <button class="calc-on" v-on:click="addnum('0')">0</button>
         </div>
     </div>
 </body>
